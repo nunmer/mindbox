@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "mindbox/1.0.0": {
+        "dependencies": {
+          "findarea": "1.0.0"
+        },
+        "runtime": {
+          "mindbox.dll": {}
+        }
+      },
+      "findarea/1.0.0": {
+        "runtime": {
+          "lib/net5.0/findcirclearea.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mindbox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "findarea/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oCHBe22ONVMutVZWMsLVIQjXRckedudzlgfaEOJedQsa0YQ6zZG1TAOFYWGA94GiNhP55sZf0yoNyEuUWqJ21g==",
+      "path": "findarea/1.0.0",
+      "hashPath": "findarea.1.0.0.nupkg.sha512"
+    }
+  }
+}

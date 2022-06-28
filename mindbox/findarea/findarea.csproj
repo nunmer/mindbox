@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>sanzhar yermek</Authors>
+    <Company>mindbox</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>mindbox</Product>
+    <PackageId>area</PackageId>
+    <AssemblyName>findarea</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\1\source\repos\NuGet\</OutputPath>
+  </PropertyGroup>
+
+</Project>
